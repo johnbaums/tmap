@@ -101,7 +101,7 @@ Also note that because the map is redrawn every time the inputs change, proxy ob
 tmap_mode("view")
 ```
 
-When inputs are changed in `"view"` mode, it is preferable that the focus (zoom and panning location) does not change. That is where `tmapProxy()` comes into play. It updates the mape. Old layer are removed via `tm_remove_layer()` and new layer can be added.
+When inputs are changed in `"view"` mode, it is preferable that the focus (zoom and panning location) does not change. That is where `tmapProxy()` comes into play. It updates the map. Old layer are removed via `tm_remove_layer()` and new layer can be added.
 
 It is recommended to:
 
